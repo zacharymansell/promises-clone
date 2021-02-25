@@ -9,7 +9,6 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
     "test": "mocha test/index.js --bail",
     "lint": "eslint ./"
   },
